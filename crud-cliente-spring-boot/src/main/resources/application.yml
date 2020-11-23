@@ -1,0 +1,41 @@
+# ===================================================================
+# Spring Boot configuration.
+# ===================================================================
+# ===================================================================
+# Standard Spring Boot properties.
+# Full reference is available at:
+# http://docs.spring.io/spring-boot/docs/current/reference/html/common-application-properties.html
+# ===================================================================
+server:
+  port: 8080
+
+spring:
+  application:
+    name: crud-cliente-spring-boot
+
+
+# ===================================================================
+# Custom application properties.
+# ===================================================================
+application:
+
+  # defaults... may or may not be substituted
+  default-timezone: America/Sao_Paulo
+  default-locale:
+    language: pt
+    country: BR
+
+    #security:
+    #jwt-secret: ad5b102595dc54d979a07579c4615c8778f9077d8cd443ab9d91abb80c75c0e1
+    #token-validity: 36000 # 10 minutos
+
+
+  # cors configuration
+  # comment if not enabled
+  cors:
+    allowed-origins: "*"
+    allowed-methods: "*"
+    allowed-headers: "*"
+    exposed-headers: "Authorization,Link,X-Total-Count"
+    allow-credentials: true
+    max-age: 1800
