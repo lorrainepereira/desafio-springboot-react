@@ -1,0 +1,40 @@
+
+
+    .estilo_form {
+        width: 800px;
+        height:450px;
+        align-items: center;
+        border: solid;   
+        background-color:#fff;
+        border-color: #4e91da;
+        border-radius: 40px 40px;
+        padding-top: 100px;
+        padding-left: 120px;
+        padding-right: 120px;
+        padding-bottom: 750px;
+        margin-left: 30%;
+        margin-bottom: 5%
+    }
+
+    .estilo_panel {
+        padding-top: 70px;
+        padding-bottom: 70px;
+        align-items: center;
+        justify-content: center;
+        height: 100vh
+    }
+
+    .textField {
+        color: #fff;
+    }
+
+    .titulo{
+        padding-bottom: 45px 
+    }  
+    
+    .botaoSalvar{
+        color: "white";
+        background-color: "#4e91da";
+        width: "100%"
+    }
+
